@@ -1,2 +1,3 @@
-# ucl_cegeg075
-Coursework data for Image Understanding
+# UCL Image Understanding Coursework Data
+
+Python notebook and images for inclass practical.
