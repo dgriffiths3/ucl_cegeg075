@@ -26,4 +26,4 @@ Secondly, a file (preferrably .py / .ipynb) containing the source code for your 
 
 ### Deadline
 
-Both documents should be uploaded to moodle by 28th March 2018.
+Both documents should be uploaded to moodle by **28th March 2018**.
