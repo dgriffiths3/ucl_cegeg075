@@ -2,12 +2,14 @@
 
 To download files open terminal and browse to the folder you want to store the data using the `cd` command.
 
-Clone the repository by typing: `git clone https://github.com/dgriffiths3/ucl_cegeg075`
+Clone the repository by typing: 
+
+`git clone https://github.com/dgriffiths3/ucl_cegeg075`
 
 Next move into the folder and open jupyter notebook with: 
 
-`cd ucl_cegeg075`
-`jupyter notebook`
+```cd ucl_cegeg075
+jupyter notebook```
 
 It is important you run `jupyter notebook` whilst in the `ucl_cege075` directory as otherwise the file paths will not work correctly.
 
