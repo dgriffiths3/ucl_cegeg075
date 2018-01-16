@@ -8,8 +8,10 @@ Clone the repository by typing:
 
 Next move into the folder and open jupyter notebook with: 
 
-```cd ucl_cegeg075
-jupyter notebook```
+```
+cd ucl_cegeg075
+jupyter notebook
+```
 
 It is important you run `jupyter notebook` whilst in the `ucl_cege075` directory as otherwise the file paths will not work correctly.
 
