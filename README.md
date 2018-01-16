@@ -13,7 +13,7 @@ cd ucl_cegeg075
 jupyter notebook
 ```
 
-It is important you run `jupyter notebook` whilst in the `ucl_cege075` directory as otherwise the file paths will not work correctly.
+Finally, open the file `opencv_coursework.ipynb`. It is important you run `jupyter notebook` whilst in the `ucl_cege075` directory as otherwise the file paths will not work correctly.
 
 ### Coursework Task:
 
