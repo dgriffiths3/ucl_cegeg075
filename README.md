@@ -58,12 +58,15 @@ To install HomeBrew open your terminal and enter:
 Add HomeBrew to your path (here I use nano but you can use which ever command line text editor you like):
 
 `nano ~/.bash_profile`
+
 Append this text to the end of your file and save:
 
 `export PATH=/usr/local/bin:$PATH`
+
 To refesh your profile type:
 
 `source ~/.bash_profile`
+
 Next install a local version of python:
 
 ```
