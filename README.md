@@ -33,7 +33,9 @@ Both documents should be uploaded to moodle by **28th March 2018**.
 
 
 
-## Installation on your own machine ##
+
+
+## Installing OpenCV on your own machine ##
 
 Here we describe the easiest ways to get opencv and python working on your own machine. If you get stuck there is a wide range of resources available online.
 
