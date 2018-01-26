@@ -91,6 +91,8 @@ To be able to clone the content from `github` as described above type:
 
 `brew install git`
 
+
+
 ***Windows***
 
 To install with windows and to programme in general with python on a windows machine I would reccommend using [Anaconda](https://conda.io/docs/user-guide/install/windows.html). Follow the link and click the `Anaconda Installer for Windows` link. Then follow all the necessary steps.
