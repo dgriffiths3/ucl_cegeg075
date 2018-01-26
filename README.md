@@ -40,6 +40,7 @@ Both documents should be uploaded to moodle by **28th March 2018**.
 Here we describe the easiest ways to get opencv and python working on your own machine. If you get stuck there is a wide range of resources available online.
 
 ***Mac***
+
 The easiest way to install OpenCV on a mac is through a package manager. There are two popular package managers for mac `HomeBrew` and `MacPorts`. Here we will show you how to install the required dependencies using `HomeBrew`.
 
 If you have never done any programming on your mac you may need to first install xcode from the app store:
