@@ -15,24 +15,54 @@ jupyter notebook
 
 Finally, open the file `opencv_coursework.ipynb`. It is important you run `jupyter notebook` whilst in the `ucl_cege075` directory as otherwise the file paths will not work correctly.
 
-### Coursework Task:
+### Task
 
-Your task is to use OpenCV and Numpy tools to extract a specific feature from a single (or group of) image(s). The feature(s) of choice as well as image(s) is up to you. It can be imagery acquired from satellite, aerial or terrestrial methods as well as your choice of spectral bands (i.e. R, G, B, NIR, SWIR etc.). You are encouraged to think outside-the-box and use internet resources such as tutorials to incorporate new methods not discussed within these practicals. 
+Your task is to use OpenCV and Numpy tools to extract a specific feature(s) from a single (group of) image(s). The feature(s) of choice as well as image(s) is up to you. It can be imagery acquired from satellite, aerial or terrestrial methods as well as your choice of spectral bands (i.e. R, G, B, NIR, SWIR etc.). You are encouraged to think outside-the-box and use internet resources such as tutorials to incorporate new methods not discussed within these practicals. 
 
-You should assess the accuracies of your proposed solution, highlighting the strengths and weaknesses. The accuracy assessment should be undertaken both on images you designed the solution around, as well as new images your system has not seen before. You should comment on why you think the solution is performing the way it is.
+You should assess the accuracies of your proposed solution, highlighting the strengths and weaknesses. To achieve this you should design/incorporate some form of accuracy indicator. The accuracy assessment should be undertaken both on images you designed the solution around, as well as new images your system has not seen before. You should comment on why you think the solution is performing the way it is. A good start here would be to look at the Intersection Over Union (IOU) method. [Here](https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/) is a good write up of how you could incorporate this into your project. Remember how we generated the bounding box for the segmentation above. Any accuracy assessment is acceptable providing it is justified.
 
-**Delivery**
+### Delivery
 
 The coursework comprises two components. First, a 2000 word research report style write up (i.e. Introduction, Methodology, Results, Discussion, Conclusion), where the segmentation problem is presented as a research problem that is investigated through the methods outlined and solved in the analysis. The discussion should connect to the wider literature to consider the approaches used by others to solve similar problems.
 
+As a general guideline the report could be structured (although not restricted to) as follows:
+
+**1. Introduction**
+   * What am I trying to detect? 
+   * What application would this be useful for? 
+   * What methods will I incorporate with the solution
+   * What are the initial obstacles in my way
+
+
+**2. Methodology**
+   * What is my approach to solving the problem
+   * Why have I chosen certain algorithms
+   * Briefly, how do these algorithms work (you would not need to go to a mathematical level here)
+   * How will you assess accuracy
+
+
+**3. Results**
+   * Display images of your results (the good and the bad)
+   * Comment on what you see
+   * Record accuracy assessment results and initial comments
+    
+    
+**4. Discussion**
+   * How do you feel your proposed solution performed
+   * If it was good why?
+   * If it was bad why?
+   * How does this compare to other solutions are there?
+   * What could be done to improve the solution?
+    
+    
+**5. Conclusion**
+   * Short conclusion outlining the key components of your report
+
 Second, a file (preferrably .py / .ipynb) containing the source code for your solution. This should be properly annotated and commented. For advice on how to correctly format code for delivery take a look [here](https://www.python.org/dev/peps/pep-0008/). It is important to provide frequent in-line comments to explain what your code is doing. Finally, if you use functions, they should be properly commented showing their input and output arguments as well as a brief description of the function.
 
-**Deadline**
+### Deadline
 
 Both documents should be uploaded to moodle by **28th March 2018**.
-
-
-
 
 
 ## Installing OpenCV on your own machine ##
