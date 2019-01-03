@@ -1,5 +1,7 @@
 # UCL Image Understanding Coursework Data
 
+The repository is now tested using Python 3.5+ although should also be backwards compatible with Python 2.7+.
+
 To download files open terminal and browse to the folder you want to store the data using the `cd` command.
 
 Clone the repository by typing: 
