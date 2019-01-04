@@ -17,6 +17,23 @@ jupyter notebook
 
 Finally, open the file `opencv_coursework.ipynb`. It is important you run `jupyter notebook` whilst in the `ucl_cege075` directory as otherwise the file paths will not work correctly.
 
+### Running on Google Colab ###
+
+This notebook can be run on google colab with a few minor alterations to avoid the need for setting up a local python environment. First navigate to [Google Colab](https://colab.research.google.com/). If you have not already, you will need to create a google account.
+
+On the top bar navigate to `GITHUB` and enter the user `dgriffiths3`. Open the file `opencv_coursework.ipynb` under the `ucl_cege075` respository. 
+
+Next, run the following code cell at the top of the notebook:
+
+`!git clone https://github.com/dgriffiths3/ucl_cegeg075 data`
+
+Open the files tab (small arrow below CO logo in top left) and click `refresh` if you do not see the folder `data`. These are all the files required for the practical.
+
+To enable the new file structure to work, you will need to append the string `data/` infront of any file paths. For example, `file = 'images/newyork.jpg''` becomes `file = 'data/images/newyork.jpg'`. 
+
+The rest of the practical will now work as normal.
+
+
 ### Task
 
 Your task is to use OpenCV and Numpy tools to extract a specific feature(s) from a single (group of) image(s). The feature(s) of choice as well as image(s) is up to you. It can be imagery acquired from satellite, aerial or terrestrial methods as well as your choice of spectral bands (i.e. R, G, B, NIR, SWIR etc.). You are encouraged to think outside-the-box and use internet resources such as tutorials to incorporate new methods not discussed within these practicals. 
@@ -61,11 +78,6 @@ As a general guideline the report could be structured (although not restricted t
    * Short conclusion outlining the key components of your report
 
 Second, a file (preferrably .py / .ipynb) containing the source code for your solution. This should be properly annotated and commented. For advice on how to correctly format code for delivery take a look [here](https://www.python.org/dev/peps/pep-0008/). It is important to provide frequent in-line comments to explain what your code is doing. Finally, if you use functions, they should be properly commented showing their input and output arguments as well as a brief description of the function.
-
-### Deadline
-
-Both documents should be uploaded to moodle by **28th March 2018**.
-
 
 ## Installing OpenCV on your own machine ##
 
@@ -136,8 +148,3 @@ Once Anaconda is installed you can open the `anaconda` prompt that will now be i
 Finally, to install git to allow us to clone the content:
 
 `conda install git`
-
-
-
-
-
